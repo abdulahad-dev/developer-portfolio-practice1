@@ -7,11 +7,20 @@ body{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat ;
 }
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat ;
+    background-position: right;
+}
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 section{
     display: flex;
+    margin-bottom: 120px;
 }
 .half-width{
     width: 50%;
@@ -20,6 +29,12 @@ section{
 }
 .half-width img{
     width: 85%;
+}
+.dream-big .half-width{
+    padding-right: 5%;
+}
+.dream-big .half-width img{
+    width: 100%;
 }
 .orange-color{
     color: orange;
